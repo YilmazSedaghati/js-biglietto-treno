@@ -30,13 +30,13 @@ let discount = 0;
 if (numAge <= 18) {
     discount = tripPrice * 0.2; 
     let finalPrice = (tripPrice - discount).toFixed(2);
-    message = `Caro cliente, il costo del biglietto è ${finalPrice} euro/cent`;
+    message = `Gentile cliente, il costo del biglietto è ${finalPrice} euro/cent`;
 } else if (numAge >= 65) {
     discount = tripPrice * 0.4; 
     let finalPrice = (tripPrice - discount).toFixed(2);
-    message = `Caro cliente, il costo del biglietto è ${finalPrice} euro/cent`;
+    message = `Gentile cliente, il costo del biglietto è ${finalPrice} euro/cent`;
 } else {
     let finalPrice = (tripPrice - discount).toFixed(2);
-    message = `Caro cliente, il costo del biglietto è ${finalPrice} euro/cent`;
+    message = `Gentile cliente, il costo del biglietto è ${finalPrice} euro/cent`;
 }
 console.log(message);
